@@ -18,7 +18,7 @@ function handleCommand(event) {
 function executeCommand(command) {
     switch (command) {
       case "help":
-        content.innerHTML += '<p class="dummy-txt">Voici les commandes (Veuillez les entrez en minuscules merci):<br>, <span class="cmd-txt">Help</span><br>, <span class="cmd-txt">Adresse</span><br>, <span class="cmd-txt">Ip</span><br>, <span class="cmd-txt">Clear</span><br>, <span class="cmd-txt">MAJ</span><br>, <span class="cmd-txt">Moi</span></p><br>';
+        content.innerHTML += '<p class="dummy-txt">Voici les commandes (Veuillez les entrez en minuscules merci):<br>, <span class="cmd-txt">help</span><br>, <span class="cmd-txt">adresse</span><br>, <span class="cmd-txt">ip</span><br>, <span class="cmd-txt">clear</span><br>, <span class="cmd-txt">maj</span><br>, <span class="cmd-txt">moi</span></p><br>';
         break;
         case "adresse":
     if (navigator.geolocation) {
